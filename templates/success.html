@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div>
+<h1>The url:</h1>
+<p>
+    {{ longUrl }} has been shortend
+</p>
+<h2>The shortend link is: </h2> <a href="{{ suffix }}"> {{ suffix }}</a>
+</div>
+{% endblock %}

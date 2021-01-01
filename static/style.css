@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #30475e;
+    height: 500px;
+    width: 70%;
+    color:white;
+  }
+
+
+  #formBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

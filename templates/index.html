@@ -1,0 +1,15 @@
+
+{% extends "layout.html" %}
+
+{% block body %}
+<div id="formBlock">
+    <form method="POST" style="display: flex; justify-content: safe;">
+        <label>Enter the url</label>
+        <input type="text" name="longUrl">
+        <label>Enter the suffix</label>
+        <input type="text" name="suffix">
+        <input type="submit">
+    </form>
+</div>
+
+{% endblock %}
